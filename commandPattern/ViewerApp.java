@@ -10,5 +10,10 @@ public class ViewerApp {
 
         PowerOff powerOff = new PowerOff(tv);
         System.out.println(powerOff.execute());
+
+        Light light = new Light();
+        TurnOnLight turnOnLight = new TurnOnLight(light);
+        rc.setCommand(turnOnLight);
+        System.out.println(turnOnLight.execute());
     }
 }
