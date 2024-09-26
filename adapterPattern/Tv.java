@@ -7,7 +7,6 @@ public class Tv {
 
     public String switchOff(){
         return "TV is switched off!";
-
     }
 
     public String changeChannelUp(){

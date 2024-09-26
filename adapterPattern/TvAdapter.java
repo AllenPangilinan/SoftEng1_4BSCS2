@@ -7,7 +7,6 @@ public class TvAdapter implements  RemoteControllerFunction {
         this.tv = tv;
     }
 
-
     @Override
     public String powerOn() {
         return tv.switchOn();
